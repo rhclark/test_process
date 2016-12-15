@@ -4,6 +4,6 @@ os:
 
    
 script:
-  - s_build.sh
+  - ./s_build.sh
 
 
