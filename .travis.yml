@@ -1,0 +1,9 @@
+os:
+  - osx
+  - linux
+
+   
+script:
+  - s_build.sh
+
+
