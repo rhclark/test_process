@@ -1,9 +1,13 @@
 os:
-  - osx
   - linux
 
    
 script:
   - ./s_build.sh
 
-
+deploy:
+  provider: gcs
+  access_key_id: GOOGHK4SCMDVVDNXWLUF 	
+  secret_access_key: 5+9g20s/y5pwm1Pt22RVb60pD8bNXqPgDLM6cs9m 	
+  bucket: test-bucket-rhclark
+  skip_cleanup: true
